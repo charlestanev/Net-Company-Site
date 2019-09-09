@@ -4,21 +4,21 @@ body {
 
 .navbar {
   background-color: #0a0903;
-}
 
-.navbar .nav-link {
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+  .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
-.navbar .nav-item.active {
-  border-left: 3px solid #ffeaae;
-}
+  .nav-item.active {
+    border-left: 3px solid #ffeaae;
+  }
 
-.navbar .container .navbar-brand {
-  color: #ffeaae;
+  .container .navbar-brand {
+    color: #ffeaae;
+  }
 }
 
 #navbarCollapse .nav-link {
@@ -34,24 +34,24 @@ body {
 }
 
 .carousel-image-1 {
-  background: url("../../img/image1.jpg");
+  background: url('../../img/image1.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url("../../img/image2.jpg");
+  background: url('../../img/image2.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url("../../img/image3.jpg");
+  background: url('../../img/image3.jpg');
   background-size: cover;
 }
 
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url("../../img/lights.jpg");
+  background: url('../../img/lights.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -70,7 +70,7 @@ body {
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url("../../img/media.jpg");
+  background: url('../../img/media.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 300px;
@@ -84,7 +84,7 @@ body {
 
 #page-header {
   height: 200px;
-  background: url("../../img/image1.jpg");
+  background: url('../../img/image1.jpg');
   background-position: 0 -360px;
   background-attachment: fixed;
   color: #ffeaae;
@@ -92,13 +92,13 @@ body {
   padding-top: 50px;
 }
 
-#icon-boxes .card:nth-child(odd) {
-  background-color: red;
-}
-
-#icon-boxes .card:nth-child(even) {
+#icon-boxes .card {
   background-color: yellow;
 }
+
+// #icon-boxes .col-md-4:nth-child(2) {
+//   background-color: yellow;
+// }
 
 .img-fluid {
   margin-top: -50px;
@@ -119,6 +119,7 @@ body {
 .card-header {
   background-color: #ff8200;
 }
+
 
 .card-footer {
   background-color: #ffc100;
@@ -149,4 +150,3 @@ body {
 #faq {
   background-color: #0a0903;
 }
-/*# sourceMappingURL=style.min.css.map */
